@@ -1,0 +1,1694 @@
+ipv6: true
+proxy_latency_test_url: https://www.gstatic.com/generate_204
+udp_latency_test_url: google.com@1.1.1.1
+dns: {}
+policy_groups:
+rules:
+- domain_wildcard:
+    match: '*.xhamster.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.colamanga.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.khmer24.mobi'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.baidu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.baidubcr.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bdstatic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.yunjiasu-cdn.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.taobao.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.alicdn.com'
+    policy: DIRECT
+- domain:
+    match: blzddist1-a.akamaihd.net
+    policy: DIRECT
+- domain:
+    match: cdn.angruo.com
+    policy: DIRECT
+- domain:
+    match: download.jetbrains.com
+    policy: DIRECT
+- domain:
+    match: file-igamecj.akamaized.net
+    policy: DIRECT
+- domain:
+    match: images-cn.ssl-images-amazon.com
+    policy: DIRECT
+- domain:
+    match: officecdn-microsoft-com.akamaized.net
+    policy: DIRECT
+- domain:
+    match: speedtest.macpaw.com
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.126.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.127.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.163.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.163yun.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.21cn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.343480.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.360buyimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.360in.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.51ym.me'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.71.am.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.8686c.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.abchina.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.accuweather.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.acgvideo.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.acm.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.acs.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.aicoinstorge.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.aip.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.air-matters.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.air-matters.io'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.aixifan.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.akadns.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.alibaba.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.alikunlun.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.alipay.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.amap.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.amd.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ams.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.animebytes.tv'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.annualreviews.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.aps.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ascelibrary.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.asm.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.asme.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.astm.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.autonavi.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.awesome-hd.me'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.b612.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.baduziyuan.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.battle.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bdatu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.beitaichufang.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.biliapi.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.biliapi.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bilibili.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bilibili.tv'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bjango.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.blizzard.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bmj.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.booking.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.broadcasthe.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.bstatic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cailianpress.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cambridge.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.camera360.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cas.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ccgslb.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ccgslb.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cctv.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cctvpic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chdbits.co'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chinanetcenter.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chinaso.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chua.pro'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chuimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chunyu.mobi'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.chushou.tv'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.clarivate.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.classix-unlimited.co.uk'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cmbchina.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cmbimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cn'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.com-hs-hkdy.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ctrip.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.czybjz.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.dandanzan.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.dfcfw.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.didialift.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.didiglobal.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.dingtalk.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.docschina.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.douban.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.doubanio.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.douyu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.duokan.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.dxycdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.dytt8.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.eastmoney.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ebscohost.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.emerald.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.empornium.me'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.engineeringvillage.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.eudic.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.feiliao.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.feng.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.fengkongcloud.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.fjhps.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.frdic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.futu5.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.futunn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.gandi.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.gazellegames.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.geilicdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.getpricetag.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.gifshow.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.godic.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.gtimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hdbits.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hdchina.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hdhome.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hdsky.me'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hdslb.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hicloud.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hitv.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hongxiu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.hostbuf.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.huxiucdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.huya.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.icetorrent.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.icevirtuallibrary.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.iciba.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.idqqimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ieee.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.iesdouyin.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.igamecj.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.imf.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.infinitynewtab.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.iop.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ip-cdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ip.la'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ipip.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ipv6-test.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.iqiyi.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.iqiyipic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ithome.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jamanetwork.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.java.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jd.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jd.hk'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jdpay.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jhu.edu'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jidian.im'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jpopsuki.eu'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jstor.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.jstucdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.kaiyanapp.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.karger.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.kaspersky-labs.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.keepcdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.keepfrds.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.kkmh.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ksosoft.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.kuyunbo.club'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.libguides.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.livechina.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.lofter.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.loli.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.luojilab.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.m-team.cc'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.madsrevolution.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.maoyan.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.maoyun.tv'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meipai.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meitu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meituan.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meituan.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meitudata.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meitustat.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.meixincdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mgtv.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mi-img.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.microsoft.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.miui.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.miwifi.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mobike.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.moke.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.morethan.tv'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mpg.de'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.msecnd.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mubu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mxhichina.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.myanonamouse.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.myapp.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.myilibrary.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.myqcloud.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.myzaker.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.nanyangpt.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.nature.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ncore.cc'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.netease.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.netspeedtestmaster.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.nim-lang-cn.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.nvidia.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.oecd-ilibrary.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.office365.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.open.cd'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.oracle.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.osapublishing.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.oup.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ourbits.club'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ourdvs.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.outlook.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ovid.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.oxfordartonline.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.oxfordbibliographies.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.oxfordmusiconline.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.passthepopcorn.me'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.paypal.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.paypalobjects.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.pnas.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.privatehd.to'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.proquest.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.pstatp.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.pterclub.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qdaily.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qhimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qhres.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qidian.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qq.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.wechat.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.dns.pub'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.doh.pub'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qyer.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.qyerstatic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.raychase.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.redacted.ch'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ronghub.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.rsc.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ruguoapp.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.s-microsoft.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.s-reader.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sagepub.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sankuai.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sciencedirect.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sciencemag.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.scomper.me'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.scopus.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.seafile.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.servicewechat.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.siam.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sina.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sm.ms'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.smzdm.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.snapdrop.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.snssdk.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.snwx.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sogo.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sogou.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sogoucdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sohu-inc.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sohu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sohucs.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.soku.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.spiedigitallibrary.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.springer.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.springerlink.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.springsunday.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.sspai.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.staticdn.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steam-chat.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steamcdn-a.akamaihd.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steamcontent.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steamgames.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steampowered.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steamstat.us'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steamstatic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.steamusercontent.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.takungpao.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tandfonline.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.teamviewer.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tencent-cloud.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tencent.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tenpay.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.test-ipv6.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tianyancha.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tjupt.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tmall.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.tmall.hk'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.totheglory.im'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.toutiao.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.udache.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.udacity.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.un.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.uni-bielefeld.de'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.uning.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.v-56.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.visualstudio.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.vmware.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.wangsu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.weather.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.webofknowledge.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.weibo.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.weibocdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.weico.cc'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.weidian.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.westlaw.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.whatismyip.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.wiley.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.windows.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.windowsupdate.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.worldbank.org'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.worldscientific.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xiachufang.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xiami.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xiami.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xiaomi.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xiaohongshu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xhscdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ximalaya.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xinhuanet.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.xmcdn.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.yangkeduo.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.ydstatic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.youku.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zhangzishi.cc'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zhihu.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zhimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zhuihd.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zimuzu.io'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zimuzu.tv'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zmz2019.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zmzapi.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zmzapi.net'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.zmzfile.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.manmanbuy.com'
+    policy: DIRECT
+- domain:
+    match: www-cdn.icloud.com.akadns.net
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.aaplimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.apple-cloudkit.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.apple.co'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.apple.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.apple.news'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.apple.com.cn'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.appstore.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.cdn-apple.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.crashlytics.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.icloud-content.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.icloud.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.icloud.com.cn'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.me.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.mzstatic.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.scdn.co'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.line.naver.jp'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.line.me'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.line-apps.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.line-cdn.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.line-scdn.net'
+    policy: PROXY
+- user_agent:
+    match: Line*
+    policy: PROXY
+- domain_keyword:
+    match: blogspot
+    policy: PROXY
+- domain_keyword:
+    match: google
+    policy: PROXY
+- domain_wildcard:
+    match: '*.abc.xyz'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.admin.recaptcha.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ampproject.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.android.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.androidify.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.appspot.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.autodraw.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.blogger.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.capitalg.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.certificate-transparency.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.chrome.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.chromeexperiments.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.chromestatus.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.chromium.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.creativelab5.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.debug.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.deepmind.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dialogflow.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.firebaseio.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.getmdl.io'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.getoutline.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ggpht.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gmail.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gmodules.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.godoc.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.golang.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gstatic.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gv.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gvt0.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gvt1.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gvt3.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gwtproject.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.itasoftware.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.madewithcode.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.material.io'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.polymer-project.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.recaptcha.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.shattered.io'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.synergyse.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.telephony.goog'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.tensorflow.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.tfhub.dev'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.tiltbrush.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.waveprotocol.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.waymo.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.webmproject.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.webrtc.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.whatbrowser.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.widevine.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.x.company'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.xn--ngstr-lra8j.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.youtu.be'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.yt.be'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ytimg.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.clubhouseapi.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.clubhouse.pubnub.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.joinclubhouse.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ap3.agora.io'
+    policy: PROXY
+- domain_keyword:
+    match: aka
+    policy: PROXY
+- domain_keyword:
+    match: youtube
+    policy: PROXY
+- domain_keyword:
+    match: twitter
+    policy: PROXY
+- domain_keyword:
+    match: instagram
+    policy: PROXY
+- domain_keyword:
+    match: gmail
+    policy: PROXY
+- domain_keyword:
+    match: pixiv
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fb.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.meta.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.twimg.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.t.co'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.kenengba.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.akamai.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.whatsapp.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.whatsapp.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.snapchat.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.amazonaws.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.angularjs.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.akamaihd.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.amazon.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.bit.ly'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.bitbucket.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.blog.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.blogcdn.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.blogsmithmedia.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.box.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.bloomberg.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.cl.ly'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.cloudfront.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.cloudflare.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.cocoapods.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dribbble.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dropbox.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dropboxstatic.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dropboxusercontent.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.docker.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.duckduckgo.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.digicert.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dnsimple.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.edgecastcdn.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.engadget.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.eurekavpt.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fb.me'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fbcdn.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fc2.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.feedburner.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fabric.io'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.flickr.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fastly.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.github.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.github.io'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.githubusercontent.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.goo.gl'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.godaddy.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.gravatar.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.imageshack.us'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.imgur.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.jshint.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ift.tt'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.j.mp'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.kat.cr'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.linode.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.lithium.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.megaupload.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.mobile01.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.modmyi.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.nytimes.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.name.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.openvpn.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.openwrt.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ow.ly'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.pinboard.in'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ssl-images-amazon.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.sstatic.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.stackoverflow.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.staticflickr.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.squarespace.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.symcd.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.symcb.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.symauth.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ubnt.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.thepiratebay.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.tumblr.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.twitch.tv'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.twitter.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wikipedia.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wikipedia.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wikimedia.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wordpress.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wsj.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wsj.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.wp.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.vimeo.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.tapbots.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ykimg.com'
+    policy: DIRECT
+- domain_wildcard:
+    match: '*.medium.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.fast.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.nflxvideo.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.linkedin.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.licdn.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.bing.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.soundcloud.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.sndcdn.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.t.me'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.tdesktop.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.telegra.ph'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.telegram.me'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.telegram.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.telesco.pe'
+    policy: PROXY
+- ip_cidr:
+    match: 91.108.4.0/22
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 91.108.8.0/22
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 91.108.12.0/22
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 91.108.16.0/22
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 91.108.56.0/22
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 109.239.140.0/24
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 149.154.160.0/20
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 2001:B28:F23D::/48
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 2001:B28:F23F::/48
+    policy: PROXY
+    no_resolve: true
+- ip_cidr:
+    match: 2001:67C:4E8::/48
+    policy: PROXY
+    no_resolve: true
+- domain_wildcard:
+    match: '*.dnsleaktest.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.dnsleak.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.expressvpn.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.nordvpn.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.surfshark.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.ipleak.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.perfect-privacy.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.browserleaks.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.browserleaks.org'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.vpnunlimited.com'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.whoer.net'
+    policy: PROXY
+- domain_wildcard:
+    match: '*.whrq.net'
+    policy: PROXY
+- ip_cidr:
+    match: 192.168.0.0/16
+    policy: DIRECT
+- ip_cidr:
+    match: 10.0.0.0/8
+    policy: DIRECT
+- ip_cidr:
+    match: 172.16.0.0/12
+    policy: DIRECT
+- ip_cidr:
+    match: 127.0.0.0/8
+    policy: DIRECT
+- geoip:
+    match: CN
+    policy: DIRECT
+    no_resolve: false
+- default:
+    policy: PROXY
+default_proxy_group: PROXY
